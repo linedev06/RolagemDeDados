@@ -2,9 +2,9 @@
 int resultado;
 int FacesDoDado;
 
-Console.WriteLine("--- Rolagem de Dados ---\n");
+Console.Write("--- Rolagem de Dados ---\n");
 
-Console.WriteLine("Digite a quantidade das faces do dado: ");
+Console.Write("Digite a quantidade das faces do dado: ");
 FacesDoDado = Convert.ToInt32(Console.ReadLine());
 
 Random random = new Random();
